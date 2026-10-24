@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121923">
+  <meta name="description" content="Интерактивное пространство романа «Сорок минут до дома».">
+  <title>Сорок минут до дома — Forty Minutes to Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <header id="site-header"></header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#28394b"/><stop offset=".58" stop-color="#8a695b"/><stop offset="1" stop-color="#d1a078"/></linearGradient>
+            <linearGradient id="road" x2="0" y2="1"><stop stop-color="#48505a"/><stop offset="1" stop-color="#151d27"/></linearGradient>
+            <radialGradient id="glow"><stop stop-color="#edc18e" stop-opacity=".8"/><stop offset="1" stop-color="#edc18e" stop-opacity="0"/></radialGradient>
+          </defs>
+          <rect width="1600" height="900" fill="url(#sky)"/>
+          <circle cx="1160" cy="355" r="280" fill="url(#glow)"/>
+          <path d="M0 540 170 477l155 44 170-78 178 91 162-66 156 66 172-105 165 102 272-82v250H0Z" fill="#34414a" opacity=".8"/>
+          <path d="M0 605h1600v295H0Z" fill="#1b2730"/>
+          <path d="M660 900 780 604h72L1040 900Z" fill="url(#road)"/>
+          <path d="m802 900 35-296h15l83 296Z" fill="#b9a997" opacity=".28"/>
+          <g fill="#18232a">
+            <path d="M95 603V452h168v151Zm24-111h52v49h-52Zm86 0h37v49h-37Z"/>
+            <path d="M340 601V490h173v111Zm22-76h49v41h-49Zm78 0h48v41h-48Z"/>
+            <path d="M1090 605V466h188v139Zm20-95h59v47h-59Zm91 0h53v47h-53Z"/>
+            <path d="M1320 604V510h184v94Zm24-63h52v35h-52Zm82 0h52v35h-52Z"/>
+          </g>
+          <g stroke="#18232a" stroke-width="8" fill="none"><path d="M70 413v210M1450 390v225M70 435l1380-45"/><path d="M70 454l1380-45" stroke-width="3"/></g>
+          <g fill="#e6bd88"><circle cx="169" cy="539" r="5"/><circle cx="408" cy="542" r="5"/><circle cx="1164" cy="518" r="6"/><circle cx="1400" cy="555" r="5"/></g>
+          <path d="M0 750h1600v150H0Z" fill="#101821" opacity=".35"/>
+        </svg>
+      </div>
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow reveal">Психологический роман · Новопокровка, Кыргызстан</p>
+        <h1 class="reveal">Сорок минут<br><em>до дома</em></h1>
+        <p class="hero-english reveal">FORTY MINUTES TO HOME</p>
+        <p class="hero-subtitle reveal">Интерактивное пространство романа</p>
+        <div class="hero-actions reveal">
+          <a class="button button-warm" href="reader.html">Начать чтение <span aria-hidden="true">↗</span></a>
+          <a class="text-link" id="continue-reading" href="reader.html" hidden>Продолжить чтение <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="world.html">Исследовать мир <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#story"><span></span>Листайте дальше</a>
+      <div class="hero-time" aria-label="Символические часы: сорок минут"><span>40</span><small>МИНУТ</small></div>
+    </section>
+
+    <section class="section story-section" id="story">
+      <div class="section-kicker">01 / О ПРОИЗВЕДЕНИИ</div>
+      <div class="story-grid">
+        <h2>Некоторые дороги<br>начинаются <em>внутри.</em></h2>
+        <div class="story-copy">
+          <p class="lead">«Сорок минут до дома» — психологический роман, действие которого происходит в Новопокровке, Кыргызстан.</p>
+          <p class="muted">Это нейтральное представление проекта. Официальный синопсис и текст романа будут добавлены автором.</p>
+          <a class="text-link" href="books.html">Перейти к томам <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="story-rule"><span>40°</span><span>МЕСТО ДЕЙСТВИЯ · НОВОПОКРОВКА</span><span>—</span></div>
+    </section>
+
+    <section class="section volumes-section" id="volumes">
+      <div class="section-heading">
+        <div><div class="section-kicker">02 / КНИГИ</div><h2>История в <em>томах</em></h2></div>
+        <a class="text-link" href="books.html">Все тома <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="volume-grid" id="home-volumes"></div>
+    </section>
+
+    <section class="interlude">
+      <div class="interlude-mark" aria-hidden="true">“</div>
+      <p>Здесь появится цитата из романа.</p>
+      <span>МЕСТО ДЛЯ АВТОРСКОГО ТЕКСТА</span>
+    </section>
+
+    <section class="section people-preview">
+      <div class="section-kicker">03 / ПЕРСОНАЖИ</div>
+      <div class="people-grid">
+        <div><h2>Люди —<br><em>не заглушки.</em></h2><p class="muted">Портреты и биографии появятся, когда будут предоставлены авторские материалы.</p><a class="text-link" href="characters.html">Знакомство с персонажами <span aria-hidden="true">→</span></a></div>
+        <div class="person-teasers" id="home-characters"></div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <p class="eyebrow">FORTY MINUTES TO HOME</p>
+      <h2>История<br><em>начинается здесь.</em></h2>
+      <a class="button button-light" href="reader.html">Открыть первый том <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+  <div id="player-mount"></div>
+</body>
+</html>
