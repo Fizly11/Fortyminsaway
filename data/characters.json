@@ -1,0 +1,6 @@
+{
+  "characters": [
+    { "id": "salman", "name": "Салман", "age": 16, "portrait": "", "biography": "", "quotes": [], "chapters": [], "gallery": [], "music": "" },
+    { "id": "saikal", "name": "Сайкал", "age": 16, "portrait": "", "biography": "", "quotes": [], "chapters": [], "gallery": [], "music": "" }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "tracks": [],
+  "ambience": [
+    { "id": "rain", "title": "Дождь", "src": "" },
+    { "id": "wind", "title": "Ветер", "src": "" },
+    { "id": "evening-street", "title": "Вечерняя улица", "src": "" },
+    { "id": "night", "title": "Ночная атмосфера", "src": "" }
+  ]
+}

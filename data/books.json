@@ -1,0 +1,28 @@
+{
+  "volumes": [
+    {
+      "id": "volume-1",
+      "number": 1,
+      "title": "Тот, кто не умел любить",
+      "englishTitle": "The Boy Who Couldn't Love",
+      "description": "Название тома известно. Официальное описание и главы ожидают материалов автора.",
+      "chapters": [{ "id": "chapter-01", "title": "Демонстрационный фрагмент", "path": "books/volume-1/chapter-01.html", "demo": true }]
+    },
+    {
+      "id": "volume-2",
+      "number": 2,
+      "title": "",
+      "englishTitle": "",
+      "description": "Название тома и описание будут добавлены автором.",
+      "chapters": [{ "id": "chapter-01", "title": "Демонстрационный фрагмент", "path": "books/volume-2/chapter-01.html", "demo": true }]
+    },
+    {
+      "id": "volume-3",
+      "number": 3,
+      "title": "Та, которая осталась",
+      "englishTitle": "The One Who Stayed",
+      "description": "Название тома известно. Официальное описание и главы ожидают материалов автора.",
+      "chapters": [{ "id": "chapter-01", "title": "Демонстрационный фрагмент", "path": "books/volume-3/chapter-01.html", "demo": true }]
+    }
+  ]
+}
